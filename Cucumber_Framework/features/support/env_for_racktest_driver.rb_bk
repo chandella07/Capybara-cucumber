@@ -1,0 +1,6 @@
+require 'capybara/cucumber'
+require 'cucumber/rails'
+
+#capybara by default uses rack-test driver so don't need to exclipitily define rack-test driver config.
+#to support your application needs to be rack application so added "require 'cucumber/rails'"
+
